@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: orange;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navigation{
+    width: 100%;
+}
+.logo img{
+    width: 35px;
+    padding-left: 45px;
+}
+.nav-item{
+    padding: 10px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.nav-list a{
+    font-size: 20px;
+}
+.about-honey{
+    display: flex;
+    background-color: wheat;
+    align-items: center;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.honey-content{
+    flex-basis: 65%;
+    padding-left: 15px;
+
+}
+.honey-info{
+    margin-bottom: 30px
+}
+.honey-info h1{
+    font-size: 35px;
+    color: #A64B00;
+    font-family: 'Open Sans', sans-serif;
+}
+.honey-text p{
+    font-size: 25px;
+    color: #FF7400;
+    font-family: 'Open Sans', sans-serif;
+}
+.honey-spoon{
+    flex-basis: 35%;
+}
+.honey-spoon img{
+    width: 300px;
+}
+.bee-garden{
+    background-color: #F5D3B3;
+    font-family: 'Open Sans', sans-serif;
+}
+.honey-features{
+    background-color: wheat;
+    padding: 15px;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.honey-features h3{
+    text-align:center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.features-item p{
+    font-family: 'Open Sans', sans-serif;
+}
+.features-item img{
+    width: 250px;
+}
+
+.honey-price{
+    background-color: #F5D3B3;
+}
+
+.honey-price h3{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.price-list{
+    padding-left: 35px;
+}
+
+.price-list ul li{
+    color: white;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.honey-price p{
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-logo img{
+    width: 75px;
+    
+}
+.footer-logo{
+    padding-left: 15px;
+}
+
+.footer-menu p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-list li{
+    font-size: 20px;
+    color: white;
+    padding-top: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-contact p{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-contact{
+    margin-right: 200px;
+}
+.contact-list{
+    list-style: none;
+}
+
+.contact-list li{
+    font-size: 20px;
+    color: white;
+    padding-top: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
