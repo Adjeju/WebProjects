@@ -1,8 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
+body{
+    background-image: url("./img/background.jpg");
+}
 .container{
     width: 1024px;
     margin-left: auto;
@@ -27,7 +30,7 @@
 }
 .logo img{
     width: 35px;
-    padding-left: 45px;
+    margin-left: 45px;
 }
 .nav-item{
     padding: 10px 5px;
@@ -41,7 +44,7 @@
 }
 .about-honey{
     display: flex;
-    background-color: wheat;
+    background-color: #FFD000;
     align-items: center;
     text-align: left;
     padding-top: 20px;
@@ -58,13 +61,13 @@
 }
 .honey-info h1{
     font-size: 35px;
-    color: #A64B00;
-    font-family: 'Open Sans', sans-serif;
+    color: #8F3E00;
+    font-family: 'Montserrat', sans-serif;
 }
 .honey-text p{
     font-size: 25px;
-    color: #FF7400;
-    font-family: 'Open Sans', sans-serif;
+    color: #A85311;
+    font-family: 'Montserrat', sans-serif;
 }
 .honey-spoon{
     flex-basis: 35%;
@@ -72,75 +75,91 @@
 .honey-spoon img{
     width: 300px;
 }
+.slider-wrapper{
+    margin: auto;
+    width: 900px;
+    padding: 35px 35px 15px 35px;
+    
+}
 .bee-garden{
-    background-color: #F5D3B3;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #FFDD00;
+}
+.bee-garden-item img{
+    width: 900px;
+    height: 450px;
 }
 .honey-features{
-    background-color: wheat;
+    background-color: white;
     padding: 15px;
 }
 .features{
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 .honey-features h3{
     text-align:center;
     font-size: 35px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff8800;
 }
-
+.pad35{
+    padding: 0 35px;
+}
 .features-item p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #003566;
+    text-align: center;
+    padding-top: 15px;
+    
 }
 .features-item img{
-    width: 250px;
+    width: 150px;
 }
-
+.features-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 33% 0 0;
+}
 .honey-price{
-    background-color: #F5D3B3;
+    background-color: #FFDD00;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
 
 .honey-price h3{
     font-size: 35px;
-    color: white;
+    color: #cc3333;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.honey-price p{
+    font-style: italic;
+    font-size: 25px;
+    color: #da3030;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .price-list{
     padding-left: 35px;
+    padding-bottom: 20px;
 }
 
 .price-list ul li{
-    color: white;
+    color: #af0000;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.honey-price p{
-    font-style: italic;
-    font-size: 35px;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-}
 .footer{
     background-color: orange;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-.footer-logo img{
-    width: 75px;
-    
-}
-.footer-logo{
-    padding-left: 15px;
 }
 
 .footer-menu p{
@@ -154,20 +173,21 @@
 }
 .footer-list li{
     font-size: 20px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-list a{
+    text-decoration: none;
     color: white;
-    padding-top: 2px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .footer-contact p{
     color: white;
     font-size: 25px;
     padding-bottom: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-.footer-contact{
-    margin-right: 200px;
-}
+
 .contact-list{
     list-style: none;
 }
@@ -175,6 +195,15 @@
 .contact-list li{
     font-size: 20px;
     color: white;
-    padding-top: 2px;
-    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-list a{
+    color: white;
+}
+
+.phone{
+    text-decoration: underline;
+    font-weight: 300;
+    font-style: italic;
 }
