@@ -24,6 +24,11 @@
                     <li><a href="#contacts" class="nav-item">Контакти</a></li>
                 </ul>
             </nav>
+            <button type="button" class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </div>
     <div class="container">
@@ -126,6 +131,23 @@
     <script src="./slick/slick.min.js"></script>
     <script>
         $('.bee-garden-slider').slick();
+    </script>
+    <script>
+        const btn = document.querySelector('.burger')
+        const nav = document.querySelector('.header nav')
+        const body = document.querySelector('body')
+        btn.addEventListener("click", (e)=> {
+            nav.classList.toggle('active')
+            btn.classList.toggle('active')
+            body.classList.toggle('lock')
+        })
+        nav.addEventListener("click", (e)=> {
+            if(e.target.tagName === "A"){
+                nav.classList.remove('active')
+                btn.classList.remove('active')
+                body.classList.remove('lock')
+            }
+        })
     </script>
 </body>
 </html>

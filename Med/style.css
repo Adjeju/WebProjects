@@ -196,6 +196,18 @@ html {
     width: 300px;
     height: 250px;
 }
+.burger{
+    display: none;
+}
+
+.burger span {
+    margin: 5px;
+    display: block;
+    border: 1px solid white;
+    background-color: #fff;
+    width: 50px;
+    height: 5px;
+}
 
 @media screen and (max-width: 1025px) {
     .container{
@@ -205,14 +217,14 @@ html {
 
 @media screen and (max-width: 960px) {
     .bee-garden-item img{
-        width: 770px;
+        width: 778px;
         height: 400px;
     }
 }
 
 @media screen and (max-width: 875px) {
     .bee-garden-item img{
-        width: 750px;
+        width: 699px;
         height: 375px;
     }
     .pad35{
@@ -228,7 +240,7 @@ html {
 
 @media screen and (max-width: 700px) {
     .bee-garden-item img{
-        width: 700px;
+        width: 528px;
         height: 300px;
     }
     .honey-spoon img {
@@ -290,6 +302,10 @@ html {
     .honey-content {
         padding-left: 30px;
     }
+    .slider-wrapper {
+        margin: auto;
+        padding: 25px;
+    }
 }
 
 @media screen and (max-width: 475px) {
@@ -322,5 +338,43 @@ html {
     .bee-garden-item img {
         width: 450px;
         height: 250px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .bee-garden-item img{
+        width: 330px;
+        height: 225px;
+    }
+    nav{
+        display: none;
+        background-color: #361134;
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 10;
+    }
+    .nav-list{
+        display: block;
+        line-height: 70px;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .burger{
+        z-index: 11;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        background-color: transparent;
+        border: none;
+        padding-right: 10px;
+    }
+    nav.active{
+        display: block;
+    }
+    body.lock{
+        overflow: hidden;
     }
 }
