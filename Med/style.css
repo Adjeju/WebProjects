@@ -377,4 +377,7 @@ html {
     body.lock{
         overflow: hidden;
     }
+    .honey-price p {
+        font-size: 21px;
+    }
 }
