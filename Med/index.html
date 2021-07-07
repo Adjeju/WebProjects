@@ -7,31 +7,45 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./slick/slick.css">
     <link rel="stylesheet" href="./slick/slick-theme.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo"><img src="./img/bee.png" alt="logo"></div>
-            <div class="navigation">
-                <nav>
-                    <ul class="nav-list">
-                        <li><a href="" class="nav-item">Головна</a></li>
-                        <li><a href="" class="nav-item">Фото</a></li>
-                        <li><a href="" class="nav-item">Переваги</a></li>
-                        <li><a href="" class="nav-item">Ціни</a></li>
-                        <li><a href="" class="nav-item">Контакти</a></li>
-                    </ul>
-                </nav>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#info" class="nav-item">Головна</a></li>
+                    <li><a href="#photo" class="nav-item">Фото</a></li>
+                    <li><a href="#features" class="nav-item">Переваги</a></li>
+                    <li><a href="#prices" class="nav-item">Ціни</a></li>
+                    <li><a href="#contacts" class="nav-item">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about-honey" id="info">
+            <div class="honey-content">
+                <div class="honey-info">
+                    <h1>Закарпатський мед <br>
+                        Натуральний, з домашньої пасіки</h1>
+                </div>
+                <div class="honey-text">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo tempora assumenda commodi, accusantium cum harum totam doloremque fuga sint atque.
+                    </p>
+                </div>
+            </div>
+            <div class="honey-spoon">
+                <img src="./img/hone.png">
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="bee-garden">
+        <div class="bee-garden" id="photo">
            <div class="slider-wrapper">
             <div class="bee-garden-slider">
                 <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
@@ -50,25 +64,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="about-honey">
-            <div class="honey-content">
-                <div class="honey-info">
-                    <h1>Закарпатський мед <br>
-                        Натуральний, з домашньої пасіки</h1>
-                </div>
-                <div class="honey-text">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo tempora assumenda commodi, accusantium cum harum totam doloremque fuga sint atque.
-                    </p>
-                </div>
-            </div>
-            <div class="honey-spoon">
-                <img src="./img/hone.png">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="honey-features">
+        <div class="honey-features" id="features">
             <h3>Наші переваги</h3>
             <div class="features">
                 <div class="pad35 features-item">
@@ -87,7 +83,7 @@
         </div>
     </div>  
     <div class="container">
-        <div class="honey-price">
+        <div class="honey-price" id="prices">
             <h3>Ціни</h3>
             <div class="price-list">
                 <ul >
@@ -100,15 +96,14 @@
     </div>
     <div class="container">
         <div class="footer">
-            
-            <div class="footer-menu">
+            <div class="footer-menu" id="contacts">
                 <p>Гіперпосилання</p>
                 <ul class="footer-list">
-                    <li><a href="">Головна</a></li>
-                    <li><a href="">Фото</a></li>
-                    <li><a href="">Переваги</a></li>
-                    <li><a href="">Ціни</a></li>
-                    <li><a href="">Контакти</a></li>
+                    <li><a href="#info">Головна</a></li>
+                    <li><a href="#photo">Фото</a></li>
+                    <li><a href="#features">Переваги</a></li>
+                    <li><a href="#prices">Ціни</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
