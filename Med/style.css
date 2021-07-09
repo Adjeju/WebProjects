@@ -76,9 +76,10 @@ html {
     padding-left: 35px;
     padding-right: 35px;
 }
-.bee-garden-item img{
-    width: 950px;
-    height: 450px;
+
+.bee-garden-item .height-photo{
+    width: 550px;
+    height: 650px;
 }
 .honey-features{
     background-color: white;
@@ -216,16 +217,16 @@ html {
 }
 
 @media screen and (max-width: 960px) {
-    .bee-garden-item img{
-        width: 778px;
-        height: 400px;
+    .bee-garden-item .height-photo{
+        width: 500px;
+        height: 600px;
     }
 }
 
 @media screen and (max-width: 875px) {
-    .bee-garden-item img{
-        width: 699px;
-        height: 375px;
+    .bee-garden-item .height-photo{
+        width: 450px;
+        height: 550px;
     }
     .pad35{
         padding: 15px;
@@ -239,9 +240,13 @@ html {
 }
 
 @media screen and (max-width: 700px) {
-    .bee-garden-item img{
-        width: 528px;
-        height: 300px;
+    .bee-garden-item .height-photo{
+        width: 450px;
+        height: 550px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 515px;
+        height: 450px;
     }
     .honey-spoon img {
         margin-right: -100px;
@@ -272,9 +277,13 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-    .bee-garden-item img{
-        width: 550px;
-        height: 275px;
+    .bee-garden-item .height-photo{
+        width: 400px;
+        height: 500px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 420px;
+        height: 278px;
     }
     .about-honey {
         padding: 25px;
@@ -289,9 +298,13 @@ html {
         width: 450px;
         height: 300px;
     }
-    .bee-garden-item img {
-        width: 400px;
-        height: 300px;
+    .bee-garden-item .height-photo{
+        width: 350px;
+        height: 450px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 390px;
+        height: 262px;
     }
     .honey-info h1 {
         font-size: 30px;
@@ -335,16 +348,24 @@ html {
     .slider-wrapper {
         padding: 25px;
     }
-    .bee-garden-item img {
-        width: 450px;
-        height: 250px;
+    .bee-garden-item .height-photo{
+        width: 300px;
+        height: 400px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 352px;
+        height: 249px;
     }
 }
 
 @media screen and (max-width: 430px) {
-    .bee-garden-item img{
-        width: 330px;
-        height: 225px;
+    .bee-garden-item .height-photo{
+        width: 250px;
+        height: 350px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 305px;
+        height: 245px;
     }
     nav{
         display: none;
@@ -383,5 +404,16 @@ html {
     .map{
         width: 300px;
         height: 250px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .bee-garden-item .height-photo{
+        width: 200px;
+        height: 300px;
+    }
+    .bee-garden-item .wide-photo {
+        width: 254px;
+        height: 242px;
     }
 }

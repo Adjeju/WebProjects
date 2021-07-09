@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Закарпатський мед з власної пасіки - Ужгород, Минай</title>
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
@@ -53,17 +54,13 @@
         <div class="bee-garden" id="photo">
            <div class="slider-wrapper">
             <div class="bee-garden-slider">
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-                <div class="bee-garden-item"><img src="./img/test.png" alt=""></div>
-
+                <div class="bee-garden-item"><img class="wide-photo" src="./img/zakarpatsjkyj_med_main.jpg" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med2.JPG" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med3.JPG" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med5.JPG" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med4.JPG" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med6.JPG" alt=""></div>
+                <div class="bee-garden-item"><img class="height-photo" src="./img/med1.JPG" alt=""></div>
             </div>
            </div>
         </div>
@@ -130,7 +127,9 @@
     </script>
     <script src="./slick/slick.min.js"></script>
     <script>
-        $('.bee-garden-slider').slick();
+        $('.bee-garden-slider').slick({
+            adaptiveHeight: true
+        });
     </script>
     <script>
         const btn = document.querySelector('.burger')
