@@ -454,3 +454,10 @@ html {
         height: 242px;
     }
 }
+
+@media screen and (max-width: 361px) {
+    .bee-garden-item .wide-photo {
+        width: 240px;
+        height: 242px;
+    }
+}
